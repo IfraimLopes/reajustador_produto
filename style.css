@@ -1,0 +1,53 @@
+@charsetc "UFT-8";
+
+body {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 17px;
+  height: 100vh;
+  background: wheat;
+  overflow: hidden;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+}
+
+h1,
+p {
+  text-align: center;
+}
+
+#btn_1 {
+  width: 300px;
+  height: 40px;
+  border-radius: 20px;
+  background-color: red;
+  color: white;
+  border: transparent;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+form > input {
+  width: 300px;
+  height: 20px;
+}
+
+input[type="text"] {
+  background-color: transparent;
+  width: 30px;
+  border: none;
+  font-weight: bolder;
+  font-size: 17px;
+}
+
+input:hover {
+  border: none;
+}
